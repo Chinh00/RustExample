@@ -3,7 +3,6 @@ name: CI/CD for Rust API
 on:
   push:
     branches:
-      - master
 
 jobs:
   dockerize:
