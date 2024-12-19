@@ -2,7 +2,7 @@ FROM rust:latest AS builder
 
 WORKDIR /usr/src/app
 
-COPY Cargo.toml ./
+COPY Cargo.toml Cargo.lock ./
 
 RUN cargo fetch
 
